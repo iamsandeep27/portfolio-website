@@ -499,10 +499,22 @@
     }
 
     .social i {
-      font-size: 30px;
+      font-size: 50px;
       color: #fff;
     
     } 
+    .finds i {
+  font-size: 30px;   /* Increased from 30px */
+  transition: transform 0.3s ease;
+}
+.finds a {
+  margin: 10px;
+  display: inline-block;
+}
+
+.finds a:hover i {
+  transform: scale(1.2); /* subtle zoom effect */
+}
     /* Social Icons Custom Colors */
 .finds a[href*="facebook"] i {
   color: #1877F2; /* Facebook Blue */
